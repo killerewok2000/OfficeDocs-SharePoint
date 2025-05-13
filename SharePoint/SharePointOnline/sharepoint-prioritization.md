@@ -37,7 +37,7 @@ Service prioritization in SharePoint enables businesses to assign a higher prior
 - **Scalable Resources**: Application resource limits can exceed [normal thresholds](https://aka.ms/spo429), offering up to 10 times more capacity when available.
 - **Dedicated Resources**: Resources for prioritized apps are isolated, preventing conflicts with general tenant operations.
 - **Financially-Backed SLAs**: Service prioritization in SharePoint follows Azure’s financially-backed Service Level Agreements, ensuring a reliable and robust service experience.
-- **No Code Changes Required**: Any app can be prioritized without requiring development or code modifications as long as they can be registered on Microsoft Graph metered APIs.
+- **No Code Changes Required**: Any app can be prioritized without requiring development or code modifications as long as they can be registered.
 - **Last to Get Throttled**: Business-critical apps are prioritized during resource contention, ensuring uninterrupted functionality.
 - **Pay-As-You-Go Model**: Organizations only pay for the resources they consume.
 
@@ -51,7 +51,7 @@ To support prioritization, service prioritization in SharePoint operates on a me
 - **Other API Requests**: SharePoint APIs such as CSOM and REST are charged at $1.00 per 1,000 requests.
 
 > [!NOTE]
-> As stated previously while this is part of the Microsoft Graph Metered API platform, all API calls to SharePoint and OneDrive are included. Price varies based on the API used per pricing above.
+> all API calls to SharePoint and OneDrive are included. Price varies based on the API used per pricing above.
 
 ## How to Leverage Service Prioritization in SharePoint
 
